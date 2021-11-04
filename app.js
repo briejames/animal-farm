@@ -6,6 +6,12 @@ const horseSound = document.getElementById("horse-sound")
 const dogImgEl = document.getElementById("dog-img")
 const catImgEl = document.getElementById("cat-img")
 const batImgEl = document.getElementById("bat-img")
+
+const sounds = {
+  cat: catSound,
+  dog: dogSound,
+  bat: horseSound
+};
 console.log
 // initialize global state
 
